@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>HTML</title>
+  
+  <!-- HTML -->
+  
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="scroll-wrapper" style="position: relative;overflow: hidden;width: calc(100% - 0px);height: auto;min-height: 1478px;max-height: 1503px;">
+    <div style="position: relative; overflow: scroll; margin-right: 0px; margin-bottom: 0px; min-height: 1478px; max-height: 1503px;">
+     <div class="" tabindex="0">
+      <style type="text/css" id="static">
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600');
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700');
+
+        html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;outline:0;vertical-align:baseline;background:transparent}
+        body{background:#FFF;text-align:left;font-feature-settings:"liga" 0;-moz-font-feature-settings:"liga" off}
+        .skn-mlm3 table{border-collapse:collapse;border-spacing:0;font-size:inherit;color:inherit;width:100%}
+
+        /*START content disc style for LI*/
+        .skn-mlm3 ul, .skn-mlm3 li{list-style:none;margin:0 0 0 8px;padding:0}
+        .skn-mlm3 ul li{position:relative;margin:0}
+        .skn-mlm3 ul li:before{content:'\25CF\0020';font-size:.6em;position:absolute;left:-7px;top:0}
+        .skn-mlm3 .skli-sec ul li:before,.skn-mlm3 .lang-sec ul li:before{left:-8px}
+        /*Address*/
+        .skn-mlm3 .address ul{margin:0}
+        .skn-mlm3 .address li{display:inline-block;padding:0 15px;margin:0}
+        .skn-mlm3 .address li:before{left:-4px}
+        .skn-mlm3 .address li:first-child:before{content:""}
+        .skn-mlm3 ul li:first-child{margin-top:0px}
+        /*END content disc style for LI*/
+
+        /*Helping Classes*/
+        .skn-mlm3 .txt-bold{font-weight:bold}
+        .skn-mlm3 .skli-name-normalwgt .txt-bold{font-weight:400}
+        .skn-mlm3 .txtCaps{text-transform:uppercase}
+        .skn-mlm3 .dispBlk{display:block}
+        .skn-mlm3 .dispInBlk{display:inline-block}
+        .skn-mlm3 .displayNoneThisField{display:none}
+        .skn-mlm3 .flt-right{float:right}
+		.skn-mlm3 .brk-all{word-break:break-all}
+
+        /*Document*/
+        .skn-mlm3{color:#020303;word-wrap:break-word;min-height:792px}
+        .skn-mlm3 .topSection{border-bottom:1px solid #186622;position:relative}
+        .skn-mlm3 .topSection:before{content:"";display:block;width:100%;height:100%;left:0;top:0;position:absolute;background:#186622;opacity:0.2}
+        .skn-mlm3 .parentContainer{display:table;table-layout:fixed;width:100%}
+        .skn-mlm3 .nameSec{border-top:none!important}
+        .skn-mlm3 .name{font-family:'Montserrat';letter-spacing:2px;color:#000;text-transform:uppercase;padding-top:25px}
+        .skn-mlm3 .resumeTitle{margin-top:5px;letter-spacing:0.5px;color:#000}
+
+        .skn-mlm3 .cntcSec{position:relative;color:#000;text-align:center;padding:12px 0}
+        .skn-mlm3 .parentContainer .nameSec + .section{margin-top:35px !important}
+        .skn-mlm3 .parentContainer .section{border-top:1px solid #186622;padding-top:8px;clear:both;position:relative}
+        .skn-mlm3 .section:not(.nameSec):not(.cntcSec):before{content: '';height:5px;width:110px;position:absolute;left:0;top:-6px;background:#186622;opacity:0.2}
+        .skn-mlm3 .parentContainer .section:not(.lang-sec):not(.skli-sec):after{display:table;content:'';clear:both}
+        .skn-mlm3 .parentContainer .nameSec{padding-top:0!important;margin-top:0!important}
+        .skn-mlm3 .heading{float:left;left:0;position:relative}
+        .skn-mlm3 .sectiontitle{font-family:'Montserrat';font-weight:bold;text-transform:uppercase;color:#000;padding-right:2px}
+        .skn-mlm3 .firstparagraph{margin-top:0!important}
+        .skn-mlm3 .exprSec ul{margin-top:5px}
+        .skn-mlm3 .accomplishment,.skn-mlm3 .skill{display:table;width:100%;table-layout:fixed}
+        .skn-mlm3 .accomplishment .paddedline{display:table-cell;width:30%;padding-right:22px}
+        .skn-mlm3 .skill .paddedline{display:table-cell;width:30%;padding-right:19px}
+        .skn-mlm3 .skill .paddedline:last-child,.skn-mlm3 .accomplishment .paddedline:last-child{padding-right:0}
+        .skn-mlm3 .sprtr {padding:0px 10px;color:#186622;font-weight:bold}
+        .skn-mlm3 .sprtr + .sprtr{display:none}
+        .skn-mlm3 .social-lnk:last-child .sprtr{display:none}
+        .skn-mlm3 .social-lnk a{color:#0000EE;text-decoration:underline}
+        .skn-mlm3 .social-lnk a:hover{text-decoration:underline}
+        
+        /*Personal details section*/
+        .skn-mlm3 .pdet-sec .singlecolumn{display:flex;justify-content:space-between;flex-wrap:wrap}
+        .skn-mlm3 .pdet-sec .details-wrap{width:49%;margin-bottom:5px}
+        .skn-mlm3 .pdet-sec .details-wrap:last-child,.skn-mlm3 .pdet-sec .details-wrap:nth-last-child(2){margin-bottom:0}
+
+        /*PPDT*/
+        .skn-mlm3 .parentContainer .section.disclaim{border:none;margin:0}
+        .skn-mlm3 .parentContainer .section.disclaim::before{display:none}
+        .skn-mlm3 .parentContainer .section.disclaim .singlecolumn{margin-left:0}
+        .skn-mlm3 .parentContainer .disclaim .field.singlecolumn,#document.skn-mlm3 .parentContainer .disclaim .field.singlecolumn li,.skn-mlm3 .parentContainer .disclaim .field.singlecolumn p,.skn-mlm3 .parentContainer .disclaim .field.singlecolumn span{font-size:9px;color:#8a8a8a}
+
+        /*MES and MFR address order code*/
+        .skn-mlm3 .zipprefix,.skn-mlm3.MES .zipsuffix,.skn-mlm3.MFR .zipsuffix{display:none!important}
+        .skn-mlm3 .zipsuffix,.skn-mlm3.MES .zipprefix,.skn-mlm3.MFR .zipprefix{display:inline-block!important}
+
+        /*Builder fixes*/
+        .skn-mlm3 .parentContainer .sortable-item:first-child + .sortable-item .section{margin-top:35px}
+
+        /*New logic for infographic*/
+        .skn-mlm3 .lang-sec .singlecolumn,.skn-mlm3 .skli-sec .singlecolumn,.skn-mlm3 .lang-sec .singlecolumn{display:none}
+        .skn-mlm3 .lang-sec.infobarsec .infobarpara,.skn-mlm3 .lang-sec.infotilesec .infotilepara,.skn-mlm3 .skli-sec.infobarsec .infobarpara,.skn-mlm3 .skli-sec.infotilesec .infotilepara{display:block}
+
+        /*Infographic*/
+        .skn-mlm3 .lang-sec,.skn-mlm3 .skli-sec{display:flex;flex-wrap:wrap;justify-content:space-between}
+        .skn-mlm3 .lang-sec .paragraph, .skn-mlm3 .skli-sec .paragraph{width:48.2%}
+        .skn-mlm3 .lang-sec .heading, .skn-mlm3 .skli-sec .heading{position:absolute;left:auto}
+        .skn-mlm3 .skli-sec .heading{position:absolute;left:auto;float: left;word-wrap: break-word;clear: both;}
+        .skn-mlm3 .lang-sec.infobarsec .field p,.skn-mlm3 .lang-sec.infobarsec .nativeLangPara .field,.skn-mlm3 .skli-sec.infobarsec .field *,.skn-mlm3 .skli-sec.infobarsec .nativeLangPara .field{display:inline}
+        .skn-mlm3 .lang-sec.infobarsec .paragraph,.skn-mlm3 .skli-sec .paragraph{vertical-align:top;padding-bottom:5px;margin-top:0}
+        .skn-mlm3 .lang-sec.infobarsec .singlecolumn,.skn-mlm3 .skli-sec.infobarsec .singlecolumn{margin-left:0!important;padding-left:0;position:relative}
+        .skn-mlm3 .lang-sec.infobarsec .paragraph.nativeLangPara{width:100%;max-width:100%}
+        .skn-mlm3 .lang-sec.infobarsec .inner-rating,.skn-mlm3 .skli-sec.infobarsec .inner-rating{position:relative}
+        .skn-mlm3 .lang-sec.infobarsec .rating-bar,.skn-mlm3 .skli-sec.infobarsec .rating-bar{background:#d5d6d6;width:100%;clear:both;margin-top:3px;overflow:hidden}
+        .skn-mlm3 .lang-sec.infobarsec .inner-rating,.skn-mlm3 .skli-sec.infobarsec .inner-rating{background-color:#0C6BA1;height:4px;width:60%}
+        .skn-mlm3 .lang-sec.infobarsec > .paragraph:nth-last-child(1),.skn-mlm3 .lang-sec.infobarsec > .paragraph:nth-last-child(2),.skn-mlm3 .skli-sec.infobarsec > .paragraph:nth-last-child(1),.skn-mlm3 .skli-sec.infobarsec > .paragraph:nth-last-child(2){padding-bottom:0!important}
+
+        .skn-mlm3 .skli-sec .paragraph:last-child .singlecolumn  .field:last-child{min-height:0}
+		.skn-mlm3 .skli-sec .paragraph:nth-last-child(1) .singlecolumn .field:last-child,.skn-mlm3 .skli-sec .paragraph:nth-last-child(2) .singlecolumn .field:last-child{min-height:0}
+
+        /*Infographic Tiles*/
+        .skn-mlm3 .lang-sec.infotilesec .paragraph,.skn-mlm3 .skli-sec .paragraph{vertical-align:top;padding-bottom:5px!important;margin-top:0}
+        .skn-mlm3 .lang-sec.infotilesec > .paragraph:nth-last-child(1),.skn-mlm3 .lang-sec.infotilesec > .paragraph:nth-last-child(2),.skn-mlm3 .skli-sec > .paragraph:nth-last-child(1),.skn-mlm3 .skli-sec > .paragraph:nth-last-child(2){padding-bottom:0!important}
+        .skn-mlm3 .lang-sec.infotilesec .field p,.skn-mlm3 .skli-sec .field p,.skn-mlm3 .lang-sec.infotilesec .nativeLangPara .field{display:inline}
+        .skn-mlm3 .lang-sec.infotilesec .singlecolumn,.skn-mlm3 .skli-sec .singlecolumn{margin-left:0!important}
+        .skn-mlm3 .lang-sec.infotilesec .sliced-rect,.skn-mlm3 .skli-sec .sliced-rect{height:6px;width:100%;line-height:0px;margin-top:3px;clear:both}
+        .skn-mlm3 .lang-sec.infotilesec .sliced-rect .sliced-rect-tile,.skn-mlm3 .skli-sec .sliced-rect .sliced-rect-tile{height:100%;background-color:#d5d6d6;float:left;margin-right:3px}
+        .skn-mlm3 .lang-sec.infotilesec .sliced-rect .sliced-rect-tile:last-child,.skn-mlm3 .skli-sec .sliced-rect .sliced-rect-tile:last-child{margin-right:0}
+        .skn-mlm3 .lang-sec.infotilesec .paragraph.nativeLangPara{width:100%!important;max-width:100%!important}
+
+        .skn-mlm3 .nativeLangPara .field:first-child{font-weight:bold}
+
+        /*Rectangular Rating Blocks*/
+        .skn-mlm3 .sliced-rect .sliced-rect-tile.ratvfill{background-color:#404041}
+        .skn-mlm3 .hide-bar .rating-bar,.skn-mlm3 .hide-only-bar .rating-bar,.skn-mlm3 .hide-bar .sliced-rect,.skn-mlm3 .hide-colon .colon,.skn-mlm3 .lang-sec.hide-only-bar .rating-bar,.skn-mlm3 .lang-sec.hide-only-bar.infotilesec .sliced-rect{display:none!important}
+        .skn-mlm3 .hide-bar .field-ratt{display:none}
+        .skn-mlm3 .data-CERT .sortable-item span,.modal-preview-resume .skn-mlm3 .PARAGRAPH_CERT span,.skn-mlm3 .cert-sec span p{display:inline-block}
+
+        /*CSS for Sortable Fields POC*/
+        .skn-mlm3  .fieldgroup-0 .dispInBlk:last-child .sprtr{display:none}
+
+        /*HILT multi para/section*/
+        .skn-mlm3 .multi-para-hilt{position:relative;font-size:0}
+        .skn-mlm3 .multi-para-hilt:after{content: "";display:block;clear:both;visibility:hidden;line-height:0;height:0} /*Clearfix*/
+        .skn-mlm3 .multi-para-hilt .paragraph{margin-top:0;width:31%;display:inline-block;vertical-align:top}
+        .skn-mlm3 .multi-para-hilt .paragraph:nth-child(n+5){margin-top:15px}
+        .skn-mlm3 .multi-para-hilt .paragraph:nth-child(3n),.skn-mlm3 .multi-para-hilt .paragraph:nth-child(3n+1){margin-left:2%}
+        .skn-mlm3 .multi-para-hilt .singlecolumn{width:100%!important;margin-left:0!important}
+        .skn-mlm3 .multi-section-hilt .multi-para-opt,.skn-mlm3 .section:not(.multi-para-hilt):not(.multi-section-hilt) .multi-para-opt,.skn-mlm3 .multi-para-hilt .skill{display:none}
+        
+        /*HILT multi para - For PDF*/
+        .skn-mlm3.for-pdf .multi-para-hilt{display:block}
+        .skn-mlm3.for-pdf .multi-para-hilt .pdfparawrapper:after{content:'';clear:both;display:table}
+        .skn-mlm3.for-pdf .multi-para-hilt .pdfparawrapper .paragraph:first-child{float:left;margin-left:0}
+        .skn-mlm3.for-pdf .multi-para-hilt .pdfparawrapper .paragraph:nth-child(2){float:left;margin-left:2%}
+        .skn-mlm3.for-pdf .multi-para-hilt .pdfparawrapper .paragraph:nth-child(3){float:right;margin-left:2%}
+        .skn-mlm3.for-pdf .multi-para-hilt .pdfparawrapper .paragraph{margin-bottom:15px;margin-top:0}
+        .skn-mlm3.for-pdf .multi-para-hilt .pdfparawrapper .paragraph:nth-child(2n){clear:none}
+        .skn-mlm3.for-pdf .multi-para-hilt .pdfparawrapper:last-child .paragraph{margin-bottom:0}
+    </style>
+      <style type="text/css" id="dynamic" data-time="Wed Nov 20 2024 23:14:50 GMT+0530 (India Standard Time)">
+        .skn-mlm3{line-height:14px}
+        .skn-mlm3.pagesize{width:535px}
+        .skn-mlm3.fontsize,.skn-mlm3 .lang-sec.infobarsec .paragraph *,.skn-mlm3 .lang-sec.infotilesec .paragraph *,.skn-mlm3 .skli-sec .paragraph *,.skn-mlm3 .multi-para-hilt .paragraph *{font-size:10px}
+        .skn-mlm3.fontface{font-family:Open Sans}
+        .skn-mlm3.vmargins{padding-bottom:30px}
+        .skn-mlm3.hmargins{padding-left:30px;padding-right:30px}
+        .skn-mlm3 .paragraph{margin-top:15px}
+        .skn-mlm3 .topSection{border-color:#0C6BA1;margin-left:-30px;margin-right:-30px}
+        .skn-mlm3 .address{font-size:10px;line-height:12px}
+        .skn-mlm3 .cntcSec{margin-left:30px;margin-right:30px}
+        .skn-mlm3 .address span{max-width:485px}
+        .skn-mlm3 .topSection:before{background:#0C6BA1}
+        .skn-mlm3 .cntcSec{padding-top:30px}
+        .skn-mlm3 .sprtr {color:#0C6BA1}
+        .skn-mlm3 .parentContainer .section{margin-top:35px;border-width:1px;border-color:#0C6BA1}
+        .skn-mlm3 .name{font-size:24px;line-height:30px}
+        .skn-mlm3 .resumeTitle{font-size:12px;line-height:15px}
+        .skn-mlm3 .name,.skn-mlm3 .resumeTitle{margin-left:115px}
+        .skn-mlm3 .sectiontitle{font-size:10px;line-height:11px}
+        .skn-mlm3 .section:not(.nameSec):not(.cntcSec):before{top:-6px;background:#0C6BA1;width:115px}
+        .skn-mlm3 .parentContainer .singlecolumn,.skn-mlm3 .parentContainer .maincolumn{margin-left:115px}
+        .skn-mlm3 .heading{width:115px}
+       
+        /*Builder fixes*/
+        .skn-mlm3.LUK .section:not(.nameSec):not(.cntcSec):before,.skn-mlm3.LUK .heading{width:113px}
+        .skn-mlm3 .data-LNGG .sortable-item.native-lang{width:100%;max-width:100%}
+        .skn-mlm3 .data-LNGG .doc-item,.skn-mlm3 .data-SKLI .doc-item,.skn-mlm3 .lang-sec .doc-item,.skn-mlm3 .skli-sec .doc-item{width:100%}
+        .skn-mlm3 .data-LNGG .sortableInner,.skn-mlm3 .data-SKLI .sortableInner,.skn-mlm3 .SECTION_LNGG .sortableInner,.skn-mlm3 .SECTION-SKLI .sortableInner{display:flex;flex-wrap:wrap;justify-content:space-between}
+        .skn-mlm3 .data-LNGG .sortable-item,.skn-mlm3 .data-SKLI .sortable-item{width:48.2%}
+        .skn-mlm3 .data-LNGG .sortable-item .paragraph,.skn-mlm3 .data-SKLI .sortable-item .paragraph{width:100%;max-width:100%}
+
+        /*Infographic*/
+        .skn-mlm3 .lang-sec.infobarsec,.skn-mlm3 .multi-para-hilt{padding-left:115px}
+        .skn-mlm3 .lang-sec.infobarsec .heading,.skn-mlm3 .multi-para-hilt .heading{margin-left:-115px}
+        .skn-mlm3 .lang-sec.infobarsec .inner-rating,.skn-mlm3 .skli-sec.infobarsec .inner-rating{background-color:#0C6BA1}
+
+        .skn-mlm3 .skli-sec .singlecolumn .field:last-child{min-height:13px}
+       
+        /*Infographic Skills*/
+        .skn-mlm3 .lang-sec.infotilesec,.skn-mlm3 .skli-sec{padding-left:115px}
+        .skn-mlm3 .lang-sec.infotilesec .heading,.skn-mlm3 .skli-sec .heading{margin-left:-115px}
+
+        .skn-mlm3 .lang-sec .sortableInner .sortable-item,.skn-mlm3 .skli-sec .sortableInner .sortable-item{display:inline}
+        
+        .skn-mlm3 .skli-sec .sortable-item .paragraph:last-child .singlecolumn .field:last-child{min-height:13px}	
+        .skn-mlm3 .skli-sec .sortable-item:nth-last-child(1) .paragraph .singlecolumn .field:last-child,.skn-mlm3 .skli-sec .sortable-item:nth-last-child(2) .paragraph .singlecolumn .field:last-child{min-height:0!important}	
+        .skn-mlm3 .skli-sec .sortableInner > .sortable-item:nth-last-child(1) .paragraph, .skn-mlm3 .skli-sec .sortableInner > .sortable-item:nth-last-child(2) .paragraph{padding-bottom:0!important}
+
+        /*Fixes for resumecheck*/
+        .skn-mlm3 .section.has-review-suggestion-for-rcv3:after{content: attr(data-before);position: absolute;-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing: antialiased;line-height: 1;color: #CF4343;font-family: "Font Awesome 5 Pro","Source Sans Pro", sans-serif;font-weight: 700;font-size: 11px;top: 10px;right: -12px;z-index: 999;border-radius: 8px;background-color: #fff;box-shadow: 0 0 5px 0 rgba(0,0,0,0.2);line-height: 14px;padding: 1px 5px;text-align: center;}
+        .skn-mlm3 .section.has-review-suggestion-for-rcv3:before{color:transparent}
+
+        /*Rectangular Rating Blocks*/
+        .skn-mlm3 .paragraph .sliced-rect .sliced-rect-tile.ratvfill{background-color:#0C6BA1}
+		.skn-mlm3 .lang-sec .title-edit,.skn-mlm3 .skli-sec .title-edit{margin-left:-115px} 
+        /*PPDT*/
+        .skn-mlm3 .parentContainer .disclaim{padding-top:50px}        
+
+        /*PDF Flex Handling Code - Personal Information*/
+		.skn-mlm3.for-pdf .pdet-sec .singlecolumn{display:block}
+		.skn-mlm3.for-pdf .pdfpdwrapper{display:block}
+		.skn-mlm3.for-pdf .pdfpdwrapper .details-wrap:first-child{float:left;padding-right:5px}
+		.skn-mlm3.for-pdf .pdfpdwrapper .details-wrap:nth-child(2){float:right}
+		.skn-mlm3.for-pdf .pdfpdwrapper .details-wrap{width:207px!important;}
+
+        /*Infographic Containers*/
+        .skn-mlm3.for-pdf .lang-sec,.skn-mlm3.for-pdf .skli-sec{display:block}
+        .skn-mlm3.for-pdf .pdfinfwrapper{display:block}
+        .skn-mlm3.for-pdf .pdfinfwrapper:after{content:'';clear:both;display:table}
+        .skn-mlm3.for-pdf .pdfinfwrapper .paragraph:first-child{float:left}
+        .skn-mlm3.for-pdf .pdfinfwrapper .paragraph:nth-child(2){float:right}
+        .skn-mlm3.for-pdf .pdfinfwrapper:last-child .paragraph{margin-bottom:0;padding-bottom:0!important}
+
+        /*POC Multi Experience Para*/
+        .skn-mlm3 .groupChildPara.paragraph .singlecolumn .companyloc{display:none}
+        .skn-mlm3 .section .groupChildPara.paragraph{margin-top:10px}
+    </style>
+      <div class="document fontsize fontface vmargins hmargins undefined    pagesize skn-mlm3 MLM3   MPR">
+       <div data-id="CONTAINER_PARENT_0" class="topSection">
+        <div data-id="CONTAINER_0" class="">
+         <div data-id="SECTION_CNTCcaab567f-604b-4c96-864d-9830218e44de" class="section cntcSec notdraggable SECTION_CNTC       
+         " data-section-cd="CNTC">
+          <div data-id="PARAGRAPH_CNTC_4d88daa1-3c66-4f7a-b0c3-b36df8d02d50" class="paragraph PARAGRAPH_CNTC firstparagraph  ">
+           <div class="clearfix doc-item">
+            <span class="address"> <span data-id="FIELD_ADDR">Ahmedabad, GJ 380003</span> <span class="dispInBlk"> <span><span class="sprtr">|</span></span> <span data-id="FIELD_HPHN">9998354711</span> </span> <span class="dispInBlk"> <span data-id="FIELD_CPHN"></span> </span> <span class="dispInBlk"> <span><span class="sprtr">|</span></span> <span data-id="FIELD_EMAI">sujalbhavsar011@gmail.com</span> </span> </span> <span><span class="sprtr">|</span></span> <span> <span> <span class="social-lnk dispInBlk" data-id="CATEGORY_SOCIAL_SOCL"> <span class="txt-bold docdatainfo"> <span data-id="DOCDATAINFO_SOCL">WWW</span><span>: </span> </span> <span class="brk-all" data-id="FIELD_SOCL">linkedin.com/in/sujal-bhavsar-01b795320</span><span class="sprtr">|</span> </span></span> <span></span> </span>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+       <div data-id="CONTAINER_PARENT_1" class="parentContainer">
+        <div data-id="CONTAINER_1" class="">
+         <div data-id="SECTION_NAMEb8b633fe-6964-4d8a-ab56-1889172f36ee" class="section notdraggable nameSec SECTION_NAME       
+         " data-section-cd="NAME">
+          <div data-id="PARAGRAPH_NAME_a48808ac-87d4-42f7-b182-a2ab82fda726" class="paragraph PARAGRAPH_NAME firstparagraph  ">
+           <div>
+            <div class="name">
+             <span data-id="FIELD_FNAM">Sujal</span> <span data-id="FIELD_LNAM">Bhavsar</span>
+            </div>
+           </div>
+          </div>
+         </div>
+         <div data-id="SECTION_ALNK54fdbe2f-5ad0-8df6-3066-f0f4b3ddeabf" class="section SECTION_ALNK       
+         " data-section-cd="ALNK">
+          <div class="heading">
+           <div class="sectiontitle" data-id="SECTIONNAME_ALNK">
+            Websites, Portfolios, Profiles
+           </div>
+          </div>
+          <div data-id="PARAGRAPH_ALNK_136edb78-4681-5bc3-48a2-45e9c678713b" class="paragraph PARAGRAPH_ALNK firstparagraph  ">
+           <div class="clearfix doc-item">
+            <div class="singlecolumn">
+             <ul>
+              <li><span data-id="FIELD_LNK1">github.com/sujal011</span></li>
+              <li><span data-id="FIELD_LNK2">hackerrank.com/profile/sujalofficial011</span></li>
+              <li class="fieldrept_lnk4-n"><span data-id="FIELD_LNK4">sujalbhavsar.in</span></li>
+             </ul>
+            </div>
+           </div>
+          </div>
+         </div>
+         <div data-id="SECTION_EDUC32154e4b-ff33-4804-a494-9866605b141a" class="section SECTION_EDUC   multi-para    
+         " data-section-cd="EDUC">
+          <div class="heading">
+           <div class="sectiontitle" data-id="SECTIONNAME_EDUC">
+            Education
+           </div>
+          </div>
+          <div data-id="PARAGRAPH_EDUC_9695b52f-8bc4-421e-b1c1-de939b90e8ab" class="paragraph PARAGRAPH_EDUC firstparagraph  ">
+           <div class="clearfix doc-item">
+            <div class="singlecolumn">
+             <span class="dispBlk"> <span class="txt-bold" data-id="FIELD_SCHO">Madhuben and Bhanubhai Patel Institute Of Technology</span><span><span>, </span></span> <span data-id="FIELD_SCIT">Anand</span> <span data-id="FIELD_SSTA"></span> <span data-id="FIELD_SCNT"></span> </span> <span class="dispBlk"> <span class="txt-bold" data-id="FIELD_DGRE">B. Tech</span><span><span>, </span></span><span data-id="FIELD_STUY">Computer Engineering</span><span data-id="FIELD_GRHN"></span><span><span>, </span></span> <span class="xslt_static_change">Expected in </span><span format="%m/%Y" data-id="FIELD_GRYR">07/2026</span> </span> <span data-id="FIELD_FRFM">GPA: 8.99</span>
+            </div>
+           </div>
+          </div>
+         </div>
+         <div data-id="SECTION_SUMMa4a6a48a-3485-49ba-8def-4bd76c96e918" class="section SECTION_SUMM       
+         " data-section-cd="SUMM">
+          <div class="heading">
+           <div class="sectiontitle" data-id="SECTIONNAME_SUMM">
+            Professional Summary
+           </div>
+          </div>
+          <div data-id="PARAGRAPH_SUMM_9ce1c600-00a5-f0ef-d547-8cd2309a0942" class="paragraph PARAGRAPH_SUMM firstparagraph  ">
+           <div class="clearfix doc-item">
+            <div class="singlecolumn" data-id="FIELD_FRFM">
+             <p>Adaptable and resourceful with passion for creating innovative web solutions. Proficient in modern front-end and back-end technologies, including HTML/CSS and JavaScript for front-end, and Spring boot and Postgresql for back-end. Capable of delivering high-quality, user-centered applications that drive business success.</p>
+            </div>
+           </div>
+          </div>
+         </div>
+         <div data-id="SECTION_SKLI3cca8b69-3772-4ef2-aff3-28e88fb24b59" class="section skli-sec infotilesec hide-colon SECTION_SKLI   multi-para    
+         " data-section-cd="SKLI">
+          <div class="heading">
+           <div class="sectiontitle" data-id="SECTIONNAME_SKLI">
+            Skills
+           </div>
+          </div>
+          <div data-id="PARAGRAPH_SKLI_2c624daf-508f-d342-2c87-d6b5962a2f7b" class="paragraph PARAGRAPH_SKLI firstparagraph para_odd  ">
+           <div class="clearfix doc-item">
+            <div class="singlecolumn infotilepara">
+             <div class="field">
+              <span data-id="FIELD_SKC1">
+               <p></p>
+               <ul>
+                <li>REST API</li>
+               </ul>
+               <p></p></span> <span class="flt-right" data-id="FIELD_RATG"></span>
+             </div>
+            </div>
+           </div>
+          </div>
+          <div data-id="PARAGRAPH_SKLI_2c624daf-508f-d342-2c87-d6b5962a2f7b" class="paragraph PARAGRAPH_SKLI para_even  ">
+           <div class="clearfix doc-item">
+            <div class="singlecolumn infotilepara">
+             <div class="field">
+              <span data-id="FIELD_SKC1">
+               <p></p>
+               <ul>
+                <li>React.js proficiency</li>
+               </ul>
+               <p></p></span> <span class="flt-right" data-id="FIELD_RATG"></span>
+             </div>
+            </div>
+           </div>
+          </div>
+          <div data-id="PARAGRAPH_SKLI_2c624daf-508f-d342-2c87-d6b5962a2f7b" class="paragraph PARAGRAPH_SKLI para_odd  ">
+           <div class="clearfix doc-item">
+            <div class="singlecolumn infotilepara">
+             <div class="field">
+              <span data-id="FIELD_SKC1">
+               <p></p>
+               <ul>
+                <li>React Native</li>
+               </ul>
+               <p></p></span> <span class="flt-right" data-id="FIELD_RATG"></span>
+             </div>
+            </div>
+           </div>
+          </div>
+          <div data-id="PARAGRAPH_SKLI_2c624daf-508f-d342-2c87-d6b5962a2f7b" class="paragraph PARAGRAPH_SKLI para_even  ">
+           <div class="clearfix doc-item">
+            <div class="singlecolumn infotilepara">
+             <div class="field">
+              <span data-id="FIELD_SKC1">
+               <p></p>
+               <ul>
+                <li>JavaScript expertise</li>
+               </ul>
+               <p></p></span> <span class="flt-right" data-id="FIELD_RATG"></span>
+             </div>
+            </div>
+           </div>
+          </div>
+          <div data-id="PARAGRAPH_SKLI_2c624daf-508f-d342-2c87-d6b5962a2f7b" class="paragraph PARAGRAPH_SKLI para_odd  ">
+           <div class="clearfix doc-item">
+            <div class="singlecolumn infotilepara">
+             <div class="field">
+              <span data-id="FIELD_SKC1">
+               <p></p>
+               <ul>
+                <li>Object-oriented programming</li>
+               </ul>
+               <p></p></span> <span class="flt-right" data-id="FIELD_RATG"></span>
+             </div>
+            </div>
+           </div>
+          </div>
+          <div data-id="PARAGRAPH_SKLI_2c624daf-508f-d342-2c87-d6b5962a2f7b" class="paragraph PARAGRAPH_SKLI para_even  ">
+           <div class="clearfix doc-item">
+            <div class="singlecolumn infotilepara">
+             <div class="field">
+              <span data-id="FIELD_SKC1">
+               <p></p>
+               <ul>
+                <li>Java programming</li>
+               </ul>
+               <p></p></span> <span class="flt-right" data-id="FIELD_RATG"></span>
+             </div>
+            </div>
+           </div>
+          </div>
+          <div data-id="PARAGRAPH_SKLI_2c624daf-508f-d342-2c87-d6b5962a2f7b" class="paragraph PARAGRAPH_SKLI para_odd  ">
+           <div class="clearfix doc-item">
+            <div class="singlecolumn infotilepara">
+             <div class="field">
+              <span data-id="FIELD_SKC1">
+               <p></p>
+               <ul>
+                <li>Version control systems: git, github</li>
+               </ul>
+               <p></p></span> <span class="flt-right" data-id="FIELD_RATG"></span>
+             </div>
+            </div>
+           </div>
+          </div>
+          <div data-id="PARAGRAPH_SKLI_2c624daf-508f-d342-2c87-d6b5962a2f7b" class="paragraph PARAGRAPH_SKLI para_even  ">
+           <div class="clearfix doc-item">
+            <div class="singlecolumn infotilepara">
+             <div class="field">
+              <span data-id="FIELD_SKC1">
+               <p></p>
+               <ul>
+                <li>Spring Boot</li>
+               </ul>
+               <p></p></span> <span class="flt-right" data-id="FIELD_RATG"></span>
+             </div>
+            </div>
+           </div>
+          </div>
+          <div data-id="PARAGRAPH_SKLI_2c624daf-508f-d342-2c87-d6b5962a2f7b" class="paragraph PARAGRAPH_SKLI para_odd  ">
+           <div class="clearfix doc-item">
+            <div class="singlecolumn infotilepara">
+             <div class="field">
+              <span data-id="FIELD_SKC1">
+               <p></p>
+               <ul>
+                <li>Databases: MySQL, PostgreSQL, MongoDB</li>
+               </ul>
+               <p></p></span> <span class="flt-right" data-id="FIELD_RATG"></span>
+             </div>
+            </div>
+           </div>
+          </div>
+          <div data-id="PARAGRAPH_SKLI_2c624daf-508f-d342-2c87-d6b5962a2f7b" class="paragraph PARAGRAPH_SKLI para_even  ">
+           <div class="clearfix doc-item">
+            <div class="singlecolumn infotilepara">
+             <div class="field">
+              <span data-id="FIELD_SKC1">
+               <p></p>
+               <ul>
+                <li>Others: Generative Ai,Kafka, Web Sockets, Redis, Docker, AWS (EC2, S3, ECR)</li>
+               </ul>
+               <p></p></span> <span class="flt-right" data-id="FIELD_RATG"></span>
+             </div>
+            </div>
+           </div>
+          </div>
+         </div>
+         <div data-id="SECTION_EXPRa7eaa6f3-e85e-49e0-af97-f6a92fa136bf" class="section exprSec SECTION_EXPR   multi-para    
+         " data-section-cd="EXPR">
+          <div class="heading">
+           <div class="sectiontitle" data-id="SECTIONNAME_EXPR">
+            Work History
+           </div>
+          </div>
+          <div data-id="PARAGRAPH_EXPR_79d8e9a4-cc8e-b256-a0f6-b831e71ea308" class="paragraph PARAGRAPH_EXPR firstparagraph  ">
+           <div class="clearfix doc-item">
+            <div class="singlecolumn">
+             <span class="dispBlk"> <span class="txt-bold txtCaps" data-id="FIELD_JTIT">Gen Ai Intern</span> <span> <span format="%m/%Y" data-id="FIELD_JSTD">09/2024</span><span> to </span><span format="%m/%Y" data-id="FIELD_EDDT">11/2024</span> </span> </span> <span class="dispBlk"> <span class="txt-bold" data-id="FIELD_COMP">Flaunch</span><span><span>, </span></span> <span data-id="FIELD_JCIT"></span> <span data-id="FIELD_JSTA"></span><span data-id="FIELD_JCNT"></span> <span data-id="FIELD_JLOC">Remote</span> </span> <span data-id="FIELD_JDES">
+              <ul>
+               <li>Developed an AI-powered whiteboard leveraging Llama Multimodalto assist teachers and students in teaching, note-taking, and solving graphical physics and math problems seamlessly.</li>
+               <li>Also created mini AI projects, including a fine-tuned medical disease chatbot,quiz generator, chat-with-PDF tool, resume matcher, and a fine-tuned medical disease chatbot.</li>
+               <li>Gained expertise in LLMs,modelfine-tuning for domain-specific tasks, RAG systems using vector databases, prompt engineering, multimodal AI, and embeddings</li>
+              </ul></span>
+            </div>
+           </div>
+          </div>
+         </div>
+         <div data-id="SECTION_CERT8bd3236d-6eed-cdd1-faa9-68aebe97e3a0" class="section cert-sec SECTION_CERT       
+         " data-section-cd="CERT">
+          <div class="heading">
+           <div class="sectiontitle" data-id="SECTIONNAME_CERT">
+            Certifications
+           </div>
+          </div>
+          <div data-id="PARAGRAPH_CERT_0d14a77d-7e74-4bbc-4015-a7fd937d79b1" class="paragraph PARAGRAPH_CERT firstparagraph  ">
+           <div class="clearfix doc-item">
+            <div class="singlecolumn">
+             <span data-id="FIELD_FRFM">
+              <p>Core Java — LearnQuest</p>
+              <p>SQL- University of Michigan</p></span>
+            </div>
+           </div>
+          </div>
+         </div>
+         <div data-id="SECTION_ADDI59cb7807-0cd6-86a7-75c0-6acc5c539993" class="section SECTION_ADDI       
+         " data-section-cd="ADDI">
+          <div class="heading">
+           <div class="sectiontitle" data-id="SECTIONNAME_ADDI">
+            Projects
+           </div>
+          </div>
+          <div data-id="PARAGRAPH_ADDI_b9dc4473-7a87-adb4-d661-6dc4ecd6a1e3" class="paragraph PARAGRAPH_ADDI firstparagraph  ">
+           <div class="clearfix doc-item">
+            <div class="singlecolumn" data-id="FIELD_FRFM">
+             <p><strong>Smart India Hackathon Project</strong>:</p>
+             <p><em>Technologies Used: </em>React native, expo, javascript, appwrite, firebase</p>
+             <ul>
+              <li>Developed a mobile application, Market Mitra, to provide direct market access for farmers.</li>
+              <li>Used React Native and Appwrite for efficient frontend and backend integration.</li>
+              <li>Designed a Firebase database schema to store and manage user profiles, product listings, and transactions.</li>
+              <li>Achieved a functional, user-friendly app interface praised for its innovative design and usability.</li>
+             </ul>
+             <p><br></p>
+             <p><strong>Ai powered whiteboard</strong> :</p>
+             <p>ai-whiteboard.vercel.app</p>
+             <ul>
+              <li><em>Technologies Used</em> : React, Llm, langchain, fast api</li>
+              <li>Developed an Al-powered whiteboard leveraging Llama Multimodal to assist teachers and students in teaching, note-taking, and solving graphical physics and math problems seamlessly.</li>
+             </ul>
+             <p><br></p>
+             <p><strong>AuthService</strong>: A Kafka-based Authentication Backend Using Spring boot ready to use in microservice architecture.</p>
+             <p><em>Technologies Used: </em>Spring boot Security,Kafka,MySql,Jpa,Spring Web</p>
+             <p><br></p>
+             <p><strong>Websocket Project</strong>:</p>
+             <p>livepaste.netlify.app/sujal?edit=true</p>
+             <p><em>Technologies Used: </em>React,Springboot,Websockets,Mongodb</p>
+             <ul>
+              <li>Developed a backend that allows users to share their clipboard live with anyone</li>
+              <li>Each user connected to the websocket will see the live updates</li>
+             </ul>
+             <p><br></p>
+             <p><strong>Movie Recommendations System</strong>:</p>
+             <p><em>Technologies Used</em>: Python, pandas, scikit-learn, Streamlit, TMDB API Developed an interactive web-based Movie Recommendation System that suggests similar movies based on user input. Implemented Content-Based Filtering using TF-IDF vectorization on movie genres and cosine similarity to compute recommendations</p>
+            </div>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div></div>
+     </div>
+    </div>
+    <div class="track-horizontal" style="display: none;">
+     <div style="position: relative; display: block; height: 100%; cursor: pointer; border-radius: inherit; background-color: rgba(0, 0, 0, 0.2);"></div>
+    </div>
+    <div class="track-vertical">
+     <div style="position: relative; display: block; width: 100%; cursor: pointer; border-radius: inherit; background-color: rgba(0, 0, 0, 0.2);"></div>
+    </div>
+   </div>
+  
+  <!-- Project -->
+  <script src=
+</html>
