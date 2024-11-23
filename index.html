@@ -30,6 +30,32 @@
       justify-content: center;
       align-items: center;
     }
+    /* Basic styles for anchor tags */
+a {
+  text-decoration: none; /* Remove the default underline */
+  color: #0073e6; /* Default link color */
+  font-weight: bold; /* Make the text bold */
+  transition: color 0.3s ease; /* Smooth color transition */
+}
+
+/* Hover state */
+a:hover {
+  color: #005bb5; /* Darken the color on hover */
+  text-decoration: underline; /* Add an underline on hover */
+}
+
+/* Active state */
+a:active {
+  color: #003d80; /* Even darker color when the link is active */
+  text-decoration: none; /* Remove underline on active state */
+}
+
+/* Visited state */
+a:visited {
+  color: #551a8b; /* Change color for visited links */
+  font-style: italic; /* Italicize visited links */
+}
+
   </style>
   <link type="text/css" rel="stylesheet"
     href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;family=Poppins:ital,wght@0,400;0,500;0,600;0,800;1,400;1,500;1,600;1,800&amp;display=swap">
@@ -1046,9 +1072,8 @@
                   <div class="clearfix doc-item">
                     <div class="singlecolumn">
                       <ul>
-                        <li><span data-id="FIELD_LNK1">github.com/sujal011</span></li>
-                        <li><span data-id="FIELD_LNK2">hackerrank.com/profile/sujalofficial011</span></li>
-                        <li class="fieldrept_lnk4-n"><span data-id="FIELD_LNK4">sujalbhavsar.in</span></li>
+                        <li><span data-id="FIELD_LNK1"><a href="https://www.github.com/sujal011">github.com/sujal011</a></span></li>
+                        <li><span data-id="FIELD_LNK2"><a href="https://www.hackerrank.com/profile/sujalofficial011">hackerrank.com/profile/sujalofficial011</a></span></li>
                       </ul>
                     </div>
                   </div>
@@ -1112,7 +1137,7 @@
                         <span data-id="FIELD_SKC1">
                           <p></p>
                           <ul>
-                            <li>REST API</li>
+                            <li>Problem Solving</li>
                           </ul>
                           <p></p>
                         </span> <span class="flt-right" data-id="FIELD_RATG"></span>
@@ -1144,7 +1169,7 @@
                         <span data-id="FIELD_SKC1">
                           <p></p>
                           <ul>
-                            <li>React Native</li>
+                            <li>SQL querying</li>
                           </ul>
                           <p></p>
                         </span> <span class="flt-right" data-id="FIELD_RATG"></span>
@@ -1160,7 +1185,7 @@
                         <span data-id="FIELD_SKC1">
                           <p></p>
                           <ul>
-                            <li>JavaScript expertise</li>
+                            <li>Data modeling</li>
                           </ul>
                           <p></p>
                         </span> <span class="flt-right" data-id="FIELD_RATG"></span>
@@ -1240,7 +1265,39 @@
                         <span data-id="FIELD_SKC1">
                           <p></p>
                           <ul>
-                            <li>Databases: MySQL, PostgreSQL, MongoDB</li>
+                            <li>Database design</li>
+                          </ul>
+                          <p></p>
+                        </span> <span class="flt-right" data-id="FIELD_RATG"></span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div data-id="PARAGRAPH_SKLI_2c624daf-508f-d342-2c87-d6b5962a2f7b"
+                  class="paragraph PARAGRAPH_SKLI para_odd  ">
+                  <div class="clearfix doc-item">
+                    <div class="singlecolumn infotilepara">
+                      <div class="field">
+                        <span data-id="FIELD_SKC1">
+                          <p></p>
+                          <ul>
+                            <li>ETL processes</li>
+                          </ul>
+                          <p></p>
+                        </span> <span class="flt-right" data-id="FIELD_RATG"></span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div data-id="PARAGRAPH_SKLI_2c624daf-508f-d342-2c87-d6b5962a2f7b"
+                  class="paragraph PARAGRAPH_SKLI para_odd  ">
+                  <div class="clearfix doc-item">
+                    <div class="singlecolumn infotilepara">
+                      <div class="field">
+                        <span data-id="FIELD_SKC1">
+                          <p></p>
+                          <ul>
+                            <li>REST API</li>
                           </ul>
                           <p></p>
                         </span> <span class="flt-right" data-id="FIELD_RATG"></span>
@@ -1256,7 +1313,7 @@
                         <span data-id="FIELD_SKC1">
                           <p></p>
                           <ul>
-                            <li>Others: Generative AI,Kafka, Web Sockets, Redis, Docker, AWS (EC2, S3, ECS)</li>
+                            <li>Others: Generative AI,Kafka, Redis, AWS (EC2, S3, ECS)</li>
                           </ul>
                           <p></p>
                         </span> <span class="flt-right" data-id="FIELD_RATG"></span>
@@ -1334,14 +1391,14 @@
                         <li>Developed a mobile application, Market Mitra, to provide direct market access for farmers.
                         </li>
                         <li>Used React Native and Appwrite for efficient frontend and backend integration.</li>
-                        <li>Designed a Firebase database schema to store and manage user profiles, product listings, and
+                        <li>Designed a database schema to store and manage user profiles, product listings, and
                           transactions.</li>
                         <li>Achieved a functional, user-friendly app interface praised for its innovative design and
                           usability.</li>
                       </ul>
                       <p><br></p>
-                      <p><strong>Ai powered whiteboard</strong> :</p>
-                      <p>ai-whiteboard.vercel.app</p>
+                      <p><strong>AI powered whiteboard</strong> :</p>
+                      <p><a id="project-links" href="https://ai-whiteboard.vercel.app">ai-whiteboard.vercel.app</p></a>
                       <ul>
                         <li><em>Technologies Used</em> : React, Llm, langchain, fast api</li>
                         <li>Developed an Al-powered whiteboard leveraging Llama Multimodel to assist teachers and
@@ -1349,23 +1406,25 @@
                         </li>
                       </ul>
                       <p><br></p>
+                      <p><strong>Movie Recommendations System</strong>:</p>
+                      <p><a id="project-links" href="https://movie-recommendation-system-0.streamlit.app">movie-recommendation-system-0.streamlit.app</p></a>
+                      <p><em>Technologies Used</em>: Python, pandas, scikit-learn, Streamlit, TMDB API Developed an
+                        interactive web-based Movie Recommendation System that suggests similar movies based on user
+                        input. Implemented Content-Based Filtering using TF-IDF vectorization on movie genres and cosine
+                        similarity to compute recommendations</p>
+                        <p><br></p>
                       <p><strong>AuthService</strong>: A Kafka-based Authentication Backend Using Spring boot ready to
                         use in microservice architecture.</p>
                       <p><em>Technologies Used: </em>Spring boot Security,Kafka,MySql,Jpa,Spring Web</p>
                       <p><br></p>
                       <p><strong>Websocket Project</strong>:</p>
-                      <p>livepaste.netlify.app/sujal?edit=true</p>
+                      <p><a id="project-links" href="https://livepaste.netlify.app/sujal?edit=true">livepaste.netlify.app</p></a>
                       <p><em>Technologies Used: </em>React,Springboot,Websockets,Mongodb</p>
                       <ul>
                         <li>Developed a backend that allows users to share their clipboard live with anyone</li>
                         <li>Each user connected to the websocket will see the live updates</li>
                       </ul>
-                      <p><br></p>
-                      <p><strong>Movie Recommendations System</strong>:</p>
-                      <p><em>Technologies Used</em>: Python, pandas, scikit-learn, Streamlit, TMDB API Developed an
-                        interactive web-based Movie Recommendation System that suggests similar movies based on user
-                        input. Implemented Content-Based Filtering using TF-IDF vectorization on movie genres and cosine
-                        similarity to compute recommendations</p>
+                      
                     </div>
                   </div>
                 </div>
